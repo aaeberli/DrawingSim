@@ -1,0 +1,6 @@
+C:\Repos\DrawingSim\DrawingSim.Console\bin\Debug\DrawingSim.Console.exe.config
+C:\Repos\DrawingSim\DrawingSim.Console\bin\Debug\DrawingSim.Console.exe
+C:\Repos\DrawingSim\DrawingSim.Console\bin\Debug\DrawingSim.Console.pdb
+C:\Repos\DrawingSim\DrawingSim.Console\obj\Debug\DrawingSim.Console.csprojResolveAssemblyReference.cache
+C:\Repos\DrawingSim\DrawingSim.Console\obj\Debug\DrawingSim.Console.exe
+C:\Repos\DrawingSim\DrawingSim.Console\obj\Debug\DrawingSim.Console.pdb

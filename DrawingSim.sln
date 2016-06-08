@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingSim.Console", "DrawingSim.Console\DrawingSim.Console.csproj", "{FB19561D-2F70-437F-A1FB-E369620A1D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingSim.Domain", "DrawingSim.Domain\DrawingSim.Domain.csproj", "{A4B7C721-94E5-43C6-A752-43D85EA05428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingSim.Application", "DrawingSim.Application\DrawingSim.Application.csproj", "{8E129502-AEA2-4BDE-907D-77BB4523C0F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingSim.Test", "DrawingSim.Test\DrawingSim.Test.csproj", "{52105932-E4C7-4439-85DD-1B4DEFDAAC97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB19561D-2F70-437F-A1FB-E369620A1D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB19561D-2F70-437F-A1FB-E369620A1D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB19561D-2F70-437F-A1FB-E369620A1D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB19561D-2F70-437F-A1FB-E369620A1D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4B7C721-94E5-43C6-A752-43D85EA05428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B7C721-94E5-43C6-A752-43D85EA05428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B7C721-94E5-43C6-A752-43D85EA05428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B7C721-94E5-43C6-A752-43D85EA05428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E129502-AEA2-4BDE-907D-77BB4523C0F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E129502-AEA2-4BDE-907D-77BB4523C0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E129502-AEA2-4BDE-907D-77BB4523C0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E129502-AEA2-4BDE-907D-77BB4523C0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52105932-E4C7-4439-85DD-1B4DEFDAAC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52105932-E4C7-4439-85DD-1B4DEFDAAC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52105932-E4C7-4439-85DD-1B4DEFDAAC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52105932-E4C7-4439-85DD-1B4DEFDAAC97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

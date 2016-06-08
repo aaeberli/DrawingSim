@@ -1,0 +1,7 @@
+C:\Repos\DrawingSim\DrawingSim.Test\bin\Debug\DrawingSim.Test.dll
+C:\Repos\DrawingSim\DrawingSim.Test\bin\Debug\DrawingSim.Test.pdb
+C:\Repos\DrawingSim\DrawingSim.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Repos\DrawingSim\DrawingSim.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Repos\DrawingSim\DrawingSim.Test\obj\Debug\DrawingSim.Test.csprojResolveAssemblyReference.cache
+C:\Repos\DrawingSim\DrawingSim.Test\obj\Debug\DrawingSim.Test.dll
+C:\Repos\DrawingSim\DrawingSim.Test\obj\Debug\DrawingSim.Test.pdb
