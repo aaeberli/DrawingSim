@@ -1,7 +1,7 @@
 C:\Repos\DrawingSim\DrawingSim.Application\bin\Debug\DrawingSim.Application.dll
 C:\Repos\DrawingSim\DrawingSim.Application\bin\Debug\DrawingSim.Application.pdb
+C:\Repos\DrawingSim\DrawingSim.Application\bin\Debug\DrawingSim.Common.dll
+C:\Repos\DrawingSim\DrawingSim.Application\bin\Debug\DrawingSim.Common.pdb
 C:\Repos\DrawingSim\DrawingSim.Application\obj\Debug\DrawingSim.Application.csprojResolveAssemblyReference.cache
 C:\Repos\DrawingSim\DrawingSim.Application\obj\Debug\DrawingSim.Application.dll
 C:\Repos\DrawingSim\DrawingSim.Application\obj\Debug\DrawingSim.Application.pdb
-C:\Repos\DrawingSim\DrawingSim.Application\bin\Debug\DrawingSim.Common.dll
-C:\Repos\DrawingSim\DrawingSim.Application\bin\Debug\DrawingSim.Common.pdb
