@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingSim.Application", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingSim.Test", "DrawingSim.Test\DrawingSim.Test.csproj", "{52105932-E4C7-4439-85DD-1B4DEFDAAC97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawingSim.Common", "DrawingSim.Common\DrawingSim.Common.csproj", "{0ADD74DE-4DEE-41E2-9F28-FA4ABACB61FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{52105932-E4C7-4439-85DD-1B4DEFDAAC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52105932-E4C7-4439-85DD-1B4DEFDAAC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52105932-E4C7-4439-85DD-1B4DEFDAAC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADD74DE-4DEE-41E2-9F28-FA4ABACB61FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADD74DE-4DEE-41E2-9F28-FA4ABACB61FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADD74DE-4DEE-41E2-9F28-FA4ABACB61FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADD74DE-4DEE-41E2-9F28-FA4ABACB61FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

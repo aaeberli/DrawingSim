@@ -1,0 +1,5 @@
+C:\Repos\DrawingSim\DrawingSim.Common\bin\Debug\DrawingSim.Common.dll
+C:\Repos\DrawingSim\DrawingSim.Common\bin\Debug\DrawingSim.Common.pdb
+C:\Repos\DrawingSim\DrawingSim.Common\obj\Debug\DrawingSim.Common.csprojResolveAssemblyReference.cache
+C:\Repos\DrawingSim\DrawingSim.Common\obj\Debug\DrawingSim.Common.dll
+C:\Repos\DrawingSim\DrawingSim.Common\obj\Debug\DrawingSim.Common.pdb
