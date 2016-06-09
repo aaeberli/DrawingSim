@@ -53,11 +53,16 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="CanvasUT.cs" />
     <Compile Include="WidgetDrawUT.cs" />
     <Compile Include="WidgetCreationUT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DrawingSim.Application\DrawingSim.Application.csproj">
+      <Project>{8E129502-AEA2-4BDE-907D-77BB4523C0F8}</Project>
+      <Name>DrawingSim.Application</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DrawingSim.Common\DrawingSim.Common.csproj">
       <Project>{0add74de-4dee-41e2-9f28-fa4abacb61fe}</Project>
       <Name>DrawingSim.Common</Name>

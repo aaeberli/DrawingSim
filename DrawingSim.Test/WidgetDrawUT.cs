@@ -22,7 +22,7 @@ namespace DrawingSim.Test
             // Assert
             Assert.IsNotNull(rect);
             Assert.IsTrue(rect.Drawable);
-            Assert.AreEqual(rect.Draw(), "Rectangle (10,10) width=30 height=40");
+            Assert.AreEqual("Rectangle (10,10) width=30 height=40", rect.Draw());
         }
 
 
@@ -31,7 +31,7 @@ namespace DrawingSim.Test
         {
             // Arrange
             uint width = 35;
-            Point position = new Point(15,30);
+            Point position = new Point(15, 30);
 
             // Act
             Square square = new Square(width, position);
@@ -39,7 +39,7 @@ namespace DrawingSim.Test
             // Assert
             Assert.IsNotNull(square);
             Assert.IsTrue(square.Drawable);
-            Assert.AreEqual(square.Draw(), "Square (15,30) size=35");
+            Assert.AreEqual("Square (15,30) size=35", square.Draw());
         }
 
 
@@ -57,7 +57,7 @@ namespace DrawingSim.Test
             // Assert
             Assert.IsNotNull(ellipse);
             Assert.IsTrue(ellipse.Drawable);
-            Assert.AreEqual(ellipse.Draw(), "Ellipse (100,150) diameterH = 300 diameterV = 200");
+            Assert.AreEqual("Ellipse (100,150) diameterH = 300 diameterV = 200", ellipse.Draw());
         }
 
         [TestMethod]
@@ -65,7 +65,7 @@ namespace DrawingSim.Test
         {
             // Arrange
             uint width = 300;
-            Point position = new Point(1,1);
+            Point position = new Point(1, 1);
 
             // Act
             Circle circle = new Circle(width, position);
@@ -73,7 +73,7 @@ namespace DrawingSim.Test
             // Assert
             Assert.IsNotNull(circle);
             Assert.IsTrue(circle.Drawable);
-            Assert.AreEqual(circle.Draw(), "Circle (1,1) size=300");
+            Assert.AreEqual("Circle (1,1) size=300", circle.Draw());
         }
 
         [TestMethod]
@@ -82,7 +82,7 @@ namespace DrawingSim.Test
             // Arrange
             uint width = 200;
             uint height = 100;
-            Point position = new Point(5,5);
+            Point position = new Point(5, 5);
             string text = "sample text";
 
             // Act
@@ -91,7 +91,7 @@ namespace DrawingSim.Test
             // Assert
             Assert.IsNotNull(textBox);
             Assert.IsTrue(textBox.Drawable);
-            Assert.AreEqual(textBox.Draw(), "Textbox (5,5) width=200 height=100 Text=\"sample text\"");
+            Assert.AreEqual("Textbox (5,5) width=200 height=100 Text=\"sample text\"", textBox.Draw());
         }
     }
 }

@@ -8,16 +8,26 @@ using DrawingSim.Common.Abstract;
 
 namespace DrawingSim.Application
 {
-    public class ConsoleCanvas : ICanvas<string, string>
+    public class ConsoleCanvas : ICanvas<string>
     {
-        public void Add(Widget<string> widget)
+        public List<Widget<string>> Widgets { get; protected set; }
+
+        public ConsoleCanvas()
         {
-            throw new NotImplementedException();
+            Widgets = new List<Widget<string>>();
+        }
+        public ICanvas<string> Add(Widget<string> widget)
+        {
+            Widgets.Add(widget);
+            return this;
         }
 
         public IEnumerable<string> Print()
         {
-            throw new NotImplementedException();
+            foreach (Widget<string> widget in Widgets)
+            {
+                yield return widget.Draw();
+            }
         }
     }
 }

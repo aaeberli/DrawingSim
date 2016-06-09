@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace DrawingSim.Application.Abstract
 {
-    public interface ICanvas<TDraw, out TRendered>
+    public interface ICanvas<TDraw>
     {
-        void Add(Widget<TDraw> widget);
+        ICanvas<TDraw> Add(Widget<TDraw> widget);
 
-        IEnumerable<TRendered> Print();
+        IEnumerable<TDraw> Print();
     }
 }
