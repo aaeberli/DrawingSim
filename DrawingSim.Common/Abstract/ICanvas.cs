@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DrawingSim.Application.Abstract
+namespace DrawingSim.Common.Abstract
 {
     public interface ICanvas<TDraw>
     {

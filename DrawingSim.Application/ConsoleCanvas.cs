@@ -1,10 +1,5 @@
-﻿using System;
+﻿using DrawingSim.Common.Abstract;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DrawingSim.Application.Abstract;
-using DrawingSim.Common.Abstract;
 
 namespace DrawingSim.Application
 {

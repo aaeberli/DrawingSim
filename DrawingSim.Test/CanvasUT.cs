@@ -1,12 +1,8 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DrawingSim.Application.Abstract;
+﻿using DrawingSim.Application;
 using DrawingSim.Common.Abstract;
-using DrawingSim.Application;
-using System.Drawing;
 using DrawingSim.Domain;
-using System.Collections;
-using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Drawing;
 using System.Linq;
 
 namespace DrawingSim.Test
