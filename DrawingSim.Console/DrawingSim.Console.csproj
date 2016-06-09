@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +49,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DrawingSim.Application\DrawingSim.Application.csproj">
+      <Project>{8E129502-AEA2-4BDE-907D-77BB4523C0F8}</Project>
+      <Name>DrawingSim.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrawingSim.Common\DrawingSim.Common.csproj">
+      <Project>{0add74de-4dee-41e2-9f28-fa4abacb61fe}</Project>
+      <Name>DrawingSim.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrawingSim.Domain\DrawingSim.Domain.csproj">
+      <Project>{A4B7C721-94E5-43C6-A752-43D85EA05428}</Project>
+      <Name>DrawingSim.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
