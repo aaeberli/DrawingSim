@@ -3,7 +3,8 @@ The solution is composed of several projects, each representing a layer or a sep
 ## DrawingSim.Application
 Contains application logic
 ### `Canvas`
-Takes a list of `Widgets` and print out their output
+Takes a list of `Widgets` and print out their output. 
+
 Implements `ICanvas` interface
 ## DrawingSim.Common
 Contains common classes and abstracts (interfaces and proper `abstract` classes)
