@@ -1,14 +1,12 @@
-﻿using DrawingSim.Domain.Abstract;
+﻿using DrawingSim.Common;
+using DrawingSim.Domain.Abstract;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DrawingSim.Domain
 {
-    public class Ellipse : Rounded
+    [WidgetName(Name = "Ellipse")]
+    public class Ellipse : Rounded<string>
     {
         public uint Height { get; private set; }
 
@@ -29,6 +27,11 @@ namespace DrawingSim.Domain
             : base(width, position)
         {
             Height = height;
+        }
+
+        public override string Draw()
+        {
+            return $"{GetName()} ({Position.X},{Position.Y}) diameterH = {Width} diameterV = {Height}";
         }
     }
 }

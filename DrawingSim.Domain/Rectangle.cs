@@ -1,15 +1,12 @@
-﻿using DrawingSim.Common.Abstract;
+﻿using DrawingSim.Common;
 using DrawingSim.Domain.Abstract;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DrawingSim.Domain
 {
-    public class Rect : Quadrilateral
+    [WidgetName(Name = "Rectangle")]
+    public class Rect : Quadrilateral<string>
     {
         public uint Height { get; private set; }
 
@@ -25,11 +22,16 @@ namespace DrawingSim.Domain
                 };
             }
         }
-        
+
         public Rect(uint width, uint height, Point position)
             : base(width, position)
         {
             Height = height;
+        }
+
+        public override string Draw()
+        {
+            return $"{GetName()} ({Position.X},{Position.Y}) width={Width} height={Height}";
         }
     }
 }

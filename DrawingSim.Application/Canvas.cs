@@ -8,9 +8,9 @@ using DrawingSim.Common.Abstract;
 
 namespace DrawingSim.Application
 {
-    public class ConsoleCanvas : ICanvas<string>
+    public class ConsoleCanvas : ICanvas<string, string>
     {
-        public void Add(Widget widget)
+        public void Add(Widget<string> widget)
         {
             throw new NotImplementedException();
         }

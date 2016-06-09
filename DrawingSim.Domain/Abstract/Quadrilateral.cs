@@ -4,7 +4,7 @@ using System.Drawing;
 
 namespace DrawingSim.Domain.Abstract
 {
-    public abstract class Quadrilateral : Widget
+    public abstract class Quadrilateral<TDraw> : Widget<TDraw>
     {
         public uint Width { get; protected set; }
         public Point Position { get; protected set; }

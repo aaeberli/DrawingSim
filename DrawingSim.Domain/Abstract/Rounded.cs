@@ -4,7 +4,7 @@ using System.Drawing;
 
 namespace DrawingSim.Domain.Abstract
 {
-    public abstract class Rounded : Widget
+    public abstract class Rounded<TDraw> : Widget<TDraw>
     {
         public virtual uint Width { get; private set; }
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DrawingSim.Common;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace DrawingSim.Domain
 {
+    [WidgetName(Name = "Textbox")]
     public class TextBox : Rect
     {
         public string Text { get; private set; }
@@ -29,6 +31,11 @@ namespace DrawingSim.Domain
             : base(width, height, position)
         {
             Text = text;
+        }
+
+        public override string Draw()
+        {
+            return $"{GetName()} ({Position.X},{Position.Y}) width={Width} height={Height} Text=\"{Text}\"";
         }
     }
 }
