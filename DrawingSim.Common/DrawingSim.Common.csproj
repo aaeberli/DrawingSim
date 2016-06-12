@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Abstract\ICanvas.cs" />
     <Compile Include="Abstract\Widget.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WidgetNameAttribute.cs" />
   </ItemGroup>

@@ -1,17 +1,22 @@
 ﻿using DrawingSim.Application;
 using DrawingSim.Common.Abstract;
 using DrawingSim.Domain;
+using Microsoft.Practices.Unity;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 
 namespace DrawingSim.Console
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            ICanvas<string> canvas = new ConsoleCanvas();
+            UnityContainer container = new UnityContainer();
+            container.RegisterType<ICanvas<string>, ConsoleCanvas>();
+
+            ICanvas<string> canvas = container.Resolve<ICanvas<string>>();
+
             Rect rect = new Rect(30, 40, new Point(10, 10));
             Square square = new Square(35, new Point(15, 30));
             Ellipse ellipse = new Ellipse(300, 200, new Point(100, 150));
@@ -30,7 +35,7 @@ namespace DrawingSim.Console
             {
                 System.Console.WriteLine(line);
             }
-            System.Console.ReadKey();
+            System.Console.Read();
         }
     }
 }

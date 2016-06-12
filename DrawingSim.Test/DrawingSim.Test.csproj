@@ -54,6 +54,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="CanvasUT.cs" />
+    <Compile Include="ProgramUT.cs" />
     <Compile Include="WidgetDrawUT.cs" />
     <Compile Include="WidgetCreationUT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,6 +67,10 @@
     <ProjectReference Include="..\DrawingSim.Common\DrawingSim.Common.csproj">
       <Project>{0add74de-4dee-41e2-9f28-fa4abacb61fe}</Project>
       <Name>DrawingSim.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DrawingSim.Console\DrawingSim.Console.csproj">
+      <Project>{fb19561d-2f70-437f-a1fb-e369620a1d82}</Project>
+      <Name>DrawingSim.Console</Name>
     </ProjectReference>
     <ProjectReference Include="..\DrawingSim.Domain\DrawingSim.Domain.csproj">
       <Project>{A4B7C721-94E5-43C6-A752-43D85EA05428}</Project>

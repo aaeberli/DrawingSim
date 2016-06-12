@@ -22,11 +22,15 @@ namespace DrawingSim.Test
             TextBox textBox = new TextBox(200, 100, new Point(5, 5), "sample text");
             string[] expected_output =
             {
+                "----------------------------------------------------------------",
+                "Current Drawing",
+                "----------------------------------------------------------------",
                 "Rectangle (10,10) width=30 height=40",
                 "Square (15,30) size=35",
                 "Ellipse (100,150) diameterH = 300 diameterV = 200",
                 "Circle (1,1) size=300",
                 "Textbox (5,5) width=200 height=100 Text=\"sample text\"",
+                "----------------------------------------------------------------",
             };
 
             // Act
